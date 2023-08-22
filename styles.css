@@ -1,1 +1,142 @@
 /* your code here */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #10e37f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.product {
+    height: 80vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px black;
+    padding: 25px;
+    box-sizing: border-box;
+
+}
+
+.product__photo {
+    position: relative;
+    height: 500px;
+    top: 100px;
+    left: -50px;
+    bottom: 50px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px black;
+}
+
+.photo-main {
+    width: 100%;
+    height: 400px;
+    background-color: #b9ea46;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+.photo-main>img {
+    position: absolute;
+    left: -20%;
+    top: 20%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.photo-album>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.photo-album>ul>li {
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.product__info {
+    margin-left: 20px;
+}
+
+.title>h1 {
+    margin: 0;
+}
+
+.title>span {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.price {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    color: #fe3f40;
+}
+
+.price>span {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.variant h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(170, 170, 170);
+}
+
+.variant ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-inline: 5px;
+}
+
+.variant ul li:hover{
+    border: 1px solid black;
+}
+
+.description h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(170, 170, 170);
+}
+
+.description ul {
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fe3f40;
+    border: none;
+    color: white;
+    box-shadow: 0px 1px 5px black;
+}
